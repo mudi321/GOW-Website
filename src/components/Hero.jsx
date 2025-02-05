@@ -40,7 +40,7 @@ const Hero = () => {
     setCurrentIndex((prevIndex) => (prevIndex % totalVideos) + 1);
   };
 
-  const getVideoSource = (index) => `videos/hero-${index}.mp4`;
+  const getVideoSource = (index) => `videos/hero-${index}.webm`;
 
   useGSAP(
     () => {

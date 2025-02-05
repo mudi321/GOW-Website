@@ -82,7 +82,7 @@ const Footer = () => {
           
         </ul>
         <p className="legal">Created with ❤️ By @
-        <a href="https://www.linkedin.com/in/muditha-kalansooriya-845b9a314" target="_blank" rel="noopener noreferrer">Mudi</a>
+        <a href="https://www.linkedin.com/in/muditha-kalansooriya-845b9a314" target="_blank" rel="noopener noreferrer">Muditha</a>
         </p>
       </section>
     </footer>

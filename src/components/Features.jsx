@@ -22,7 +22,6 @@ const BentoTilt = ({children, className = '' }) => {
         setTransformStyle(newTransform);
     };
 
-
     const handleMouseLeave = () => {
         setTransformStyle('');
     }
@@ -53,9 +52,6 @@ const BentoCard = ({src, title, description, isComingSoon }) => {
                     )}
                 </div>
             </div>
-
-            
-            
         </div>
     )
 }
@@ -80,7 +76,7 @@ const Features = () => {
                 target="_blank" 
                 rel="noopener noreferrer">
                     <BentoCard
-                        src="videos/t1.mp4"
+                        src="videos/t1.webm"
                         title={<>GOD OF WAR ON PC</>}
                         description="Kratos and Atreus' 2018 adventure is now available on Steam and Epic Games Store with a range of optimizations for PC players."
                         isComingSoon
@@ -94,7 +90,7 @@ const Features = () => {
                     target="_blank" 
                     rel="noopener noreferrer">
                         <BentoCard
-                            src="videos/feature-2.mp4"
+                            src="videos/feature-2.webm"
                             title={<>Evolution of Kratos</>}
                             description="Core developers of God of War Ragnarok delve into the journey of shaping Kratos, the stoic warrior, into a multifaceted father and battle-hardened legend, embodying strength and vulnerability."
                         />
@@ -105,7 +101,7 @@ const Features = () => {
                     target="_blank" 
                     rel="noopener noreferrer">
                         <BentoCard 
-                            src="videos/feature-3.mp4"
+                            src="videos/feature-3.webm"
                             title={<>Behind the scenes</>}
                             description="Learn more about the making of God of War Ragnarök and God of War 2018 from the creators at Santa Monica Studio."
                         />
@@ -146,10 +142,8 @@ const Features = () => {
                         className="size-full object-cover object-center"
                     />
                 </a>
-                </BentoTilt>
-                
+                </BentoTilt>              
             </div>
-
         </div>
     </section>
   )

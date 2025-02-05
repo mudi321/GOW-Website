@@ -92,7 +92,7 @@ const Navbar = () => {
             <button className='ml-5 flex items-center space-x-0.5 '
             onClick={toggleAudioIndicator}>
               <audio ref={audioClipRef} className='hidden'
-              src="/audio/loop.mp3"loop />
+              src="/audio/loop.aac"loop />
                 {[1,2,3,4].map((bar) => (
                   <div key={bar}
                   className={`indicator-line ${isIndicatorActive ?
